@@ -1,0 +1,85 @@
+"cookie": 
+"astCity=101010100; 
+_uab_collina=156955481792754438798267;
+__c=1570777254; 
+__g=-; 
+Hm_lvt_194df3105ad7148dcf2b98a91b5e727a=1569554818,1570584808,1570777254;
+__l=l=%2Fwww.zhipin.com%2F&r=https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3D-aJtL9QmfMuTy6DpppAQvq9lUjh3S48WCtjRH5y5DhlyizjQr3q25MDNfZ2A2mym%26wd%3D%26eqid%3Df1d0518f000597e5000000025da0278f&friend_source=0&friend_source=0;
+__a=71522457.1569554818.1570584808.1570777254.109.3.55.109; Hm_lpvt_194df3105ad7148dcf2b98a91b5e727a=1570783881;
+__zp_stoken__=d494BQCQQOTHpTNbzu05TJG%2BAPK6x%2FaXH36tf1MGbac2iAXCP0t6YMAjWF0vChHu5ED7P6uuGwmrz6HU%2FbRYjGlaYg%3D%3D",
+
+#这个是破解关键
+#__zp_stoken__ = d494BQCQQOTHpTNbzu05TJG%2BAB72DYpYx%2BJmYJ5NdlHQ%2FY7DnGtXh0Wej4jyZK1RLDkV5uAlyifkRFfuP1AIxJu9QQ%3D%3D	
+
+#__zp_stoken__ = d494BQCQQOTHpTNbzu05TJG%2BAKWZXo4AHeWW5Lj6YZ7M%2Fltndo2CrB6r0IksvdmOHbbxGdPmJ4KUHdxb2G8WOBqJDg%3D%3D	
+
+
+#__zp_stoken__ 由3个变量组成
+Cookie.set("__zp_stoken__", 
+code,
+expiredate,
+COOKIE_DOMAIN, "/");
+
+var expiredate = new Date().getTime() + 32 * 60 * 60 * 1000 * 2;
+
+var COOKIE_DOMAIN = (function() {
+                        var hostName = location.hostname;
+
+                        if (hostName === "localhost" || /^(\d+\.){3}\d+$/.test(hostName)) {
+                            return hostName;
+                        }
+
+                        return (
+                            "." +
+                            hostName
+                                .split(".")
+                                .slice(-2)
+                                .join(".")
+                        );
+                    })();
+
+security-js/35077fad.js
+
+https://www.zhipin.com/web/common/security-js/35077fad.js
+
+https://www.zhipin.com/web/common/security-check.html?seed=D6cMAPOkxPJvtiuqUcp5aFo7XdiYa4LIcGWOKBRVTjY%3D&name=35077fad&ts=1570787676550&callbackUrl=%2Fc101010100%2F%3Fquery%3DPhp%26page%3D1%26ka%3Dpage-1&srcReferer=
+
+https://www.zhipin.com/web/common/security-check.html?seed=DYmi4QnvA7qCslpo8wBJxITKM%2Bl0PmjcLI8VqJXme%2FA%3D&name=35077fad&ts=1570796438225&callbackUrl=%2Fc101010100%2F%3Fquery%3DPhp%26page%3D1%26ka%3Dpage-1&srcReferer=
+
+https://www.zhipin.com/web/common/security-check.html?seed=DYmi4QnvA7qCslpo8wBJxHO%2FzXPFXnsMu9pBU1LgDP0%3D&name=35077fad&ts=1570797237815&callbackUrl=%2Fjob_detail%2F6f8d7ea774c360d31H153tm9FFU~.html%3Fka%3Dsearch_list_1&srcReferer=
+
+https://www.zhipin.com/web/common/security-check.html?seed=DYmi4QnvA7qCslpo8wBJxLZBxZUiD%2BWuFcOgYjoeDss%3D&name=35077fad&ts=1570797347854&callbackUrl=%2Fc101010100%2F%3Fquery%3DPhp%26page%3D1%26ka%3Dpage-1&srcReferer=
+
+security-check.html?seed=DYmi4QnvA7qCslpo8wBJxI96w%2FpZBn8s2zHvox%2FKHgc%3D&name=35077fad&ts=1570797955862&callbackUrl=%2Fc101010100%2F%3Fquery%3DPhp%26page%3D1%26ka%3Dpage-1&srcReferer=
+
+https://www.zhipin.com/web/common/security-js/35077fad.js
+
+83e1SuohuipuImtFdnFYA%2BNnZrtQoobgrGuhU0RaKWAcHgdADPfkkmXOG02qdsHyO4gkQPgBQcYGFm749G7C59Iucw%3D%3D
+83e1SuohuipuImtFdnFYA%2BNnZpRUMuHrr6karjpDFzEH53dqj7HFu6vubj5%2Bh6vqDBYdyKHN5okYQSPRWhIHwKSHWw%3D%3D	
+
+
+直接访问
+https://www.zhipin.com/c101010100/?query=Php&page=1&ka=page-1
+cookie 为空
+
+会重定向到
+https://www.zhipin.com/web/common/security-check.html?seed=i5XOGNWnOQGccNol3a1wrwdzDYWCw%2BGx79fvUjBMzcs%3D&name=db438a46&ts=1570849465188&callbackUrl=%2Fc101010100%2F%3Fquery%3DPhp%26page%3D1%26ka%3Dpage-1&srcReferer=
+cookie 为空
+seed: i5XOGNWnOQGccNol3a1wrwdzDYWCw+Gx79fvUjBMzcs=
+name: db438a46
+ts: 1570849465188
+callbackUrl: /c101010100/?query=Php&page=1&ka=page-1
+
+再去重定向
+https://www.zhipin.com/c101010100/?query=Php&page=1&ka=page-1
+cookie为
+lastCity=101010100;
+_uab_collina=156955481792754438798267; 
+__c=1570849464; 
+__g=-;
+__l=l=%2Fwww.zhipin.com%2Fweb%2Fcommon%2Fsecurity-check.html%3Fseed%3Di5XOGNWnOQGccNol3a1wrwdzDYWCw%252BGx79fvUjBMzcs%253D%26name%3Ddb438a46%26ts%3D1570849465188%26callbackUrl%3D%252Fc101010100%252F%253Fquery%253DPhp%2526page%253D1%2526ka%253Dpage-1%26srcReferer%3D&r=&friend_source=0;
+__a=3929530.1570849464..1570849464.1.1.1.1;
+__zp_stoken__=83e1X5YpcRFMK1zJSxLlD%2Fq29K1I5bRiJzqOJqK38dP%2FITAX2sVFP29F%2BWbe0vfOyXCG8Bv945TsBYr6YSpbFVinxw%3D%3D
+db438a46
+i5XOGNWnOQGccNol3a1wrwdzDYWCw+Gx79fvUjBMzcs=	
+1570849465647
