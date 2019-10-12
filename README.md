@@ -1,3 +1,6 @@
+#2.0版
+selenium 已完成爬取，js直接爬取还未完成，还需努力。
+
 # Boss-js-
 Boss 直聘js破解
 
